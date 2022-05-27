@@ -21,6 +21,7 @@ func main() {
 
 		if err != nil {
 			utils.Error(err.Error() + "\n")
+			continue
 		}
 
 		fmt.Println(result)

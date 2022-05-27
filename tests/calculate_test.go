@@ -16,5 +16,4 @@ func TestForArrayExpressions(t *testing.T) {
 			t.Errorf("got %f, wanted %f", got, want)
 		}
 	}
-
 }
